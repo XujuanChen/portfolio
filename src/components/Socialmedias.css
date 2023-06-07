@@ -1,0 +1,39 @@
+.social-icons {
+    font-size: 2rem;
+    opacity: 0.85;
+  }
+  
+  .social-icons a{
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  
+  #linkedin {
+    color: #005b8e;
+  }
+  
+  #github {
+    color: black;
+  }
+  
+  #twitter {
+    color: #00aced;
+  }
+  #facebook {
+    color: #4267B2;
+  }
+  
+  #linkedin:hover, #github:hover, #twitter:hover, #facebook:hover {
+    color: magenta;
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+  }
+
+
+  @media only screen and (min-width: 768px) {
+    .social-icons{
+      left:6rem;
+    }
+  }
+
+

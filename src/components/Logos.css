@@ -1,0 +1,14 @@
+.logo-container {
+    width: 80px;
+    height: 80px;
+}
+
+.skill-logos {
+    font-size: 4rem;
+    color:var(--clr-primary-4);
+    text-align: center;
+}
+
+.mc {
+    text-align: center;
+}

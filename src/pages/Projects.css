@@ -1,0 +1,54 @@
+.background-blue {
+    background-color: var(--clr-primary-2);
+    opacity: 0.65;
+    color: white;
+    padding: 0.5rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.projects-container {
+    min-height: 100vh;
+    margin-top: 15%;
+
+}
+
+.projects-page {
+    min-height: 80vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.pj-image {
+    border-radius: 5%;
+    max-width: 100%;
+
+}
+
+.pj-right {
+    padding: 0 2rem;
+}
+
+.skill-btn {
+    padding: 0.75rem 1.25rem;
+    border-color: transparent;
+    border-radius: 10%;
+    margin: 5px 1rem 5px 0;
+    background-color:gainsboro;
+}
+
+.pj-link a:hover{
+    color: var(--clr-primary-5);
+    border-bottom: 1px solid var(--clr-primary-5);
+    transition: all 0.5s linear;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .projects-page {
+        grid-template-columns: 1fr 2fr;
+        max-height: 2.5vh;
+        margin-bottom: 5%;
+    }
+}

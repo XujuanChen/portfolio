@@ -1,0 +1,88 @@
+.home-page {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.home-section {
+    margin: 0;
+}
+
+.introduction {
+    max-width: 480px;
+    line-height: 1.75;
+}
+
+.chen {
+    color: var(--clr-primary-2);
+    font-weight: bolder;
+    opacity: 0.5;
+}
+
+.mail-link {
+    color: var(--clr-primary-3);
+    font-size: small;
+    opacity: 0.5;
+}
+
+.home-touch {
+    margin-top: 20%;
+}
+
+.home-title {
+    margin: 20% 0 10% 0;
+}
+
+.op75{
+    opacity: 0.5;
+}
+
+.home-img-container {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.home-image {
+    border-radius: 1%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.nav {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    
+}
+
+.nav a {
+    margin-right: 2rem;
+    padding: 0;
+}
+
+.nav a:hover{
+    border-bottom: 1px solid red;
+    transition: all 0.5s linear;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+.mail-link:hover {
+    color: red;
+    transition: all 0.5s linear;
+    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .home-page {
+        grid-template-columns: 1fr 1fr;
+        height: 100vh;
+    }
+
+    .home-img img{
+        width: 95%;
+    }
+}
+
