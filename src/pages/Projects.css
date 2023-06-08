@@ -23,7 +23,6 @@
 .pj-image {
     border-radius: 5%;
     max-width: 100%;
-
 }
 
 .pj-right {
@@ -50,5 +49,11 @@
         grid-template-columns: 1fr 2fr;
         max-height: 2.5vh;
         margin-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .projects-page {
+        min-height: 70vh;
     }
 }

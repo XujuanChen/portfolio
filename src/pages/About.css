@@ -24,6 +24,10 @@
     margin-top: 7%;
 }
 
+.tp-20 {
+    margin-top: 15%;
+}
+
 .image-container {
     padding: 1rem;
     
@@ -32,7 +36,7 @@
 .my-image {
     display: block;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 1%;
     border-radius: 50%;
     max-width: 60%;
@@ -43,6 +47,9 @@
     text-align: center;
 }
 
+.blue-color {
+    color: var(--clr-primary-2);
+}
 .underline {
     text-decoration: underline;  
     text-decoration-color: var(--clr-primary-4);  
@@ -60,7 +67,6 @@
     flex-wrap: wrap;
     width: 100%;
 }
-
 
 
 @media only screen and (min-width: 768px) {
@@ -86,5 +92,11 @@
 
     .grid-icons {
         width: 90%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .about-page {
+        min-height: 80vh;
     }
 }

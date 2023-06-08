@@ -15,25 +15,26 @@ const About = () => {
           <div className='image-container'>
             <img className='my-image' src="photo23.jpg" alt="photo"/>
           </div>
-          <div className='text-center tp-10'>
+          <div className='text-center tp-10 '>
             <h2>Xujuan Chen</h2>
-            <h3>M.S. in Computer Science</h3>
+            <h3 className='blue-color tp-10'>M.S. in Computer Science</h3>
             <h3 className="op75">from City College of New York</h3>
-            <h3>B.S. in Computer Science</h3>
+            <h3 className='blue-color'>B.S. in Computer Science</h3>
             <h3 className="op75">from Lehman College</h3>
-            <h3>Honor: Summa Cum Laude</h3>
+            <h3 className='tp-10'>Honor: Summa Cum Laude</h3>
           </div>
-          <div className='image-container'>
+          {/* <div className='image-container'>
             <img className='my-image' src="degree.avif" alt="photo"/>
-          </div>
+          </div> */}
           <br />
         </div>
       </div>
 
-      <div className='about-right'>
+      <div className='about-right tp-10'>
         <h2 className='underline'>My Skills & Tools</h2>
-        <br />
+
         <h3 className='op75'>The skills, tools and technologies I use to bring your products to life:</h3>
+        <br />
         <br />
         <div className='grid-icons'>
           <Logos icon={faHtml5} text='HTML5' />

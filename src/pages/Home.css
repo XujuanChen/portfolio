@@ -21,17 +21,16 @@
 }
 
 .mail-link {
-    color: var(--clr-primary-3);
-    font-size: small;
-    opacity: 0.5;
+    color: var(--clr-primary-2);
+    opacity: 0.75;
 }
 
 .home-touch {
-    margin-top: 20%;
+    margin-top: 10%;
 }
 
 .home-title {
-    margin: 20% 0 10% 0;
+    margin: 10% 0 0 0;
 }
 
 .op75{

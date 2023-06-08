@@ -13,7 +13,7 @@
   }
   
   #github {
-    color: black;
+    color: var(--clr-primary-1);
   }
   
   #twitter {
@@ -22,8 +22,12 @@
   #facebook {
     color: #4267B2;
   }
+
+  #email{
+    color: var(--clr-primary-2);
+  }
   
-  #linkedin:hover, #github:hover, #twitter:hover, #facebook:hover {
+  #linkedin:hover, #github:hover, #twitter:hover, #facebook:hover, #email:hover {
     color: magenta;
     transition: all 0.3s ease-in-out;
     box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;

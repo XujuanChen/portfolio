@@ -3,6 +3,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
+import Socialmedias from './components/Socialmedias'
 
 function App() {
   return (

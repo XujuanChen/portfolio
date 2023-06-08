@@ -57,8 +57,10 @@ const Contact = () => {
           </form>
 
         </div>
-        <div className='left-container tp-25'>
-        <Socialmedias />
+        <div className='left-container'>
+
+        <div className='map-container'>
+        <h3 className='ml op75 ft'>My Location: Bronx, New York</h3>
         <MapContainer center={[40.8448, -73.8648]} zoom={13} scrollWheelZoom={false}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -70,9 +72,12 @@ const Contact = () => {
             </Popup>
           </Marker>
         </MapContainer>
-        <br />
-          <h3 className='ml op75 ft'>My Location: Bronx, New York</h3>
         </div>
+        <div className='social-icons-container'>
+            <Socialmedias />
+        </div>
+        </div>
+
         <Arrow />
     </div>
     </div>

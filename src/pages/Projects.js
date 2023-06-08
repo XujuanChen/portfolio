@@ -17,7 +17,10 @@ const Projects = () => {
           <p> Jan 2023 - May 2023 </p>
           <h2 className='underline'>HobbyHub – ReactJS Full-Stack Project	 </h2>
             <br />
-            <h3 className='op75'>HobbyHub is a full-stack website that allows users to create posts and see a feed of them on the home page, edit, delete, or leave comments/images underneath them for discussions, and give upvotes for posts that they like. </h3>
+            <h3 className='op75'>
+              Do you like leave a comment to a post? HobbyHub is a full-stack website that allows users to create posts and see a feed of them on the home page, 
+              edit, delete, or leave comments/images underneath them for discussions, and give upvotes for posts that they like. 
+            </h3>
           <br />
           <h3>Skills</h3>
           <div>
@@ -27,6 +30,7 @@ const Projects = () => {
             <button className='skill-btn'>React</button> 
             <button className='skill-btn'>Supabase</button> 
             <button className='skill-btn'>CRUD</button> 
+            <button className='skill-btn'>FullStack</button> 
             <button className='skill-btn'>React Router DOM</button> 
           </div>
           <br />
@@ -34,7 +38,7 @@ const Projects = () => {
           <p className='pj-link'>
             <a href="https://lucent-praline-946a75.netlify.app/" target='_blank'>https://lucent-praline-946a75.netlify.app/</a>
           </p>
-          <p> <span><b> login account: </b>  </span> joycuber@gmail.com  & <span> <b> password: </b>  </span> 123456  </p>
+          <p> <span><b>Test account: </b>  </span> joycuber@gmail.com  & <span> <b> password: </b>  </span> 123456  </p>
           <br />
           <h3>Github</h3>
           <p className='pj-link' >
@@ -60,7 +64,10 @@ const Projects = () => {
           <h2 className='underline'> Veni Vici – ReactJS API project  </h2>
             <br />
             <h3 className='op75'>
-            The Web App allows users to discover new things by clicking through random new stuff. It displays one element at a time with information through API calls in a random fashion. The user can influence what they want to see next via a ban list.
+                Wow! Cats are so cute and beautiful! I really want to explore different species of thoese cuties in the world.  
+                This Web App allows me to discover new cats by clicking through random new stuff. 
+                It displays one cat at a time with information through API calls in a random fashion. 
+                I also can influence what I want to see next via a ban list.
             </h3>
           <br />
           <h3>Skills</h3>
@@ -70,6 +77,7 @@ const Projects = () => {
             <button className='skill-btn'>JavaScript</button> 
             <button className='skill-btn'>React</button> 
             <button className='skill-btn'>REST API</button> 
+            <button className='skill-btn'>UI Design</button> 
           </div>
           <br />
           <h3>Website:</h3>
@@ -101,7 +109,9 @@ const Projects = () => {
           <h2 className='underline'> Flashcards – ReactJS Front-End Project	 </h2>
             <br />
             <h3 className='op75'>
-            Users can use flashcards to study, learn something new, or play a guessing game. It allows users to enter an answer with exact or fuzzy matching and move backward and forward through the list of cards.
+            I'm a life-long learner. I designed this app that use flashcards to study, learn something new, or play a guessing game. 
+            I can enter an answer with exact or fuzzy matching and move backward and forward through the list of cards. 
+            Do you want to have a try? Just click the website below.
             </h3>
           <br />
           <h3>Skills</h3>
@@ -111,7 +121,7 @@ const Projects = () => {
             <button className='skill-btn'>JavaScript</button> 
             <button className='skill-btn'>React</button> 
             <button className='skill-btn'>React Hooks</button> 
-
+            <button className='skill-btn'>FrontEnd</button>
           </div>
           <br />
           <h3>Website:</h3>
@@ -145,7 +155,9 @@ const Projects = () => {
           <h2 className='underline'> Traffic Monitor - Computer Vision Project	 </h2>
             <br />
             <h3 className='op75'>
-              The project is on designing intelligent sensors by YOLOv8 object detection. It detects vehicles and tracks them by assigned id. When traffic congestion occurs, it will be reported on the screen.
+              This project is on designing intelligent sensors by YOLOv8 object detection. 
+              The algorithm detects vehicles, tracks them by assigned id and counts the vehicles passing by the surveillance camera. 
+              When traffic congestion occurs, it will be reported on the screen.
             </h3>
           <br />
           <h3>Skills</h3>
@@ -184,7 +196,11 @@ const Projects = () => {
           <h2 className='underline'>Crosswalk Detection - Computer Vision Project </h2>
             <br />
             <h3 className='op75'> 
-            To develop a crosswalk recognition algorithm using Python and OpenCV. The algorithm will tell the visually impaired people where they are currently located relative to the crosswalk and guide them through the crosswalk by providing instructions to ensure that they do not deviate far from the center of the crosswalk. 
+              To aid visually impaired people walk across streets safely, 
+              I desgined and developed this project to detect a crosswalk in a camera using Python OpenCV. 
+              The algorithm will tell the visually impaired people where they are currently located relative to the crosswalk 
+              and guide them through the crosswalk by providing audio instructions to ensure that 
+              they do not deviate far from the center of the crosswalk. 
             </h3>
           <br />
           <h3>Skills</h3>
